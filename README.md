@@ -6,7 +6,7 @@
 
 **Seeking Machine Learning Internships**
 
-🚀 Production systems serving **1.5M+ users** · 🏎️ UCF Baja SAE
+🚀 Production systems serving **1M+ users**
 
 [![Email](https://img.shields.io/badge/Email-evanburnett07%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:evanburnett07@gmail.com)
 
@@ -17,16 +17,20 @@
 - Building **end-to-end machine-learning systems**, from data collection and feature engineering to evaluation and deployment
 - Experienced with production software, telemetry, analytics, and performance optimization
 - Interested in **applied ML, anomaly detection, and reliable data systems**
-- 🔭 Currently working on **TALOS** — anomaly detection for live vehicle telemetry
+- 🔭 Currently working on **TALOS** - anomaly detection for live vehicle telemetry
 - 🌱 Currently deepening my ML fundamentals alongside production systems work
 
 ## 🚀 Featured Work
 
-### 🌦️ [Augur](https://github.com/evanbur/Augur) — Probabilistic Weather Forecasting
+### 🌦️ [Augur](https://github.com/evanbur/Augur) — Probabilistic Weather Forecasting & Market Trading
 
-Production-oriented ML platform combining multiple weather sources into calibrated probabilistic forecasts.
+A ML platform that ingests multiple weather models, aggregates them into calibrated probabilistic forecasts, and evaluates trading signals against Kalshi prediction markets with full experiment tracking and fault-tolerant ETL pipelines.
 
-`Python` `scikit-learn` `MLflow` `FastAPI` `PostgreSQL` `Docker`
+`Python` `MLflow` `FastAPI` `PostgreSQL` `SQLAlchemy` `Alembic` `Docker` `Pydantic v2` `HTTPX`
+
+**Data & ML:** Open-Meteo · HRRR/NAM/ECMWF/GFS/NBM ensemble aggregation · Model weighting & bias correction · Probabilistic calibration · Brier score evaluation · Baseline & seasonal analysis
+
+**Markets:** Kalshi event-market modeling · Edge calculation · Confidence scoring · Paper-trading engine · Position sizing & exposure limits · Fee & P&L modeling
 
 ### 🛡️ [MLBD](https://github.com/blackgatedev/MLBD-Backend) — Behavioral Cheat Detection
 
@@ -34,11 +38,15 @@ Engineered features from player rotation telemetry and trained a **Random Forest
 
 `Python` `Java` `Random Forest` `Feature Engineering`
 
-### ⚔️ [TALOS](https://github.com/evanbur/Talos) — UCF Baja SAE Vehicle Telemetry & Anomaly Detection
+### 🏎️ [TALOS](https://github.com/evanbur/Talos) — UCF Baja SAE Vehicle Telemetry & Anomaly Detection
 
-Named for the bronze automaton of Greek myth that stood guard over Crete. Working across the complete telemetry system — sensors, embedded hardware, power, RF communication, binary data protocols, storage, and Grafana dashboards. Developing **machine-learning anomaly detection** to identify unusual vehicle behavior and potential mechanical issues from live telemetry.
+Named for the bronze automaton of Greek myth that stood guard over Crete. Designing and building the full telemetry pipeline for the team's 2027 car · RF link, packet protocol, and downstream ML · from antenna placement through live dashboarding.
 
-`Embedded Systems` `RF Telemetry` `Grafana` `Machine Learning` `Anomaly Detection`
+`C/C++` `STM32F446RE` `UART` `XLR PRO Radio` `RF Systems` `CRC-16` `Bit Packing` `Fixed-Point Encoding` `Grafana Live` `Unsupervised Anomaly Detection`
+
+**RF & Embedded:** Antenna placement and RF link analysis (line-of-sight, polarization, obstruction) · Point-to-point radio config on Digi XLR PRO · UART interfacing between microcontroller and radio · Custom packet framing with sequence numbers and CRC-16 integrity checks · Bit-packed · Fixed-point payload encoding
+
+**ML & Dashboards:** Unsupervised anomaly detection (planned) for belt slip, actuator binding/lag, overheating, suspension faults, and more from live sensor data · Real-time Grafana Live dashboarding for paddock monitoring
 
 ### 🚙 TacomaCAN — Vehicle Data Display
 
@@ -48,15 +56,15 @@ Built a C++ telemetry system that reads raw CAN-bus data from a Toyota Tacoma. R
 
 ## 📈 Engineering Impact
 
-- Built production backend and analytics systems supporting **1.5M+ users**
+- Built production backend and analytics systems supporting **1M+ users**
 - Improved load performance by approximately **40%** while refactoring part of a **400K-line Java codebase**
 - Developed multi-database analytics, Grafana dashboards, and production observability tooling
 
 ## 🛠️ Technical Skills
 
-**Machine Learning:** Random Forests, Feature Engineering, Anomaly Detection, Model Evaluation  
+**Machine Learning:** scikit-learn (Random Forest, Gradient Boosting, SVM, Logistic Regression), Feature Engineering, Model Evaluation (Cross-Validation, Precision/Recall/FPR-FNR), Class Imbalance Handling, Hyperparameter Tuning, Ensemble Methods, Experiment Tracking (MLflow)  
 **Languages:** Python, Java, C, C++, SQL  
-**Systems:** FastAPI, PostgreSQL, Grafana, Docker, Async Programming, Git
+**Systems:** FastAPI, PostgreSQL, MySQL, MariaDB, SQLAlchemy, Docker, Grafana, Async Programming, Git
 
 ## 🎓 Education & Certifications
 
@@ -65,19 +73,9 @@ Built a C++ telemetry system that reads raw CAN-bus data from a Toyota Tacoma. R
 - ☁️ Microsoft Certified: Azure AI Fundamentals
 - ☕ Information Technology Specialist: Java
 
-## 📊 GitHub Stats
-
 <div align="center">
 
-![Evan's GitHub stats](https://github-readme-stats.vercel.app/api?username=evanbur&show_icons=true&theme=default&hide_title=false)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=evanbur&theme=default)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=evanbur&layout=compact&theme=default)
-
-</div>
-
-<div align="center">
-
-### 📫 Let's Connect
+### 📫 Contact
 
 Open to **machine-learning internships**, technical collaborations, and applied ML projects.
 
