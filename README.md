@@ -16,9 +16,9 @@
 
 - Building **end-to-end machine-learning systems**, from data collection and feature engineering to evaluation and deployment
 - Experienced with production software, telemetry, analytics, and performance optimization
-- Interested in **applied ML, anomaly detection, and reliable data systems**
+- Interested in **ML, anomaly detection, and data systems**
 - 🔭 Currently working on **TALOS** - anomaly detection for live vehicle telemetry
-- 🌱 Currently deepening my ML fundamentals alongside production systems work
+- 🌱 Learning more about different aspects of ML alongside everything else
 
 ## 🚀 Featured Work
 
@@ -38,7 +38,7 @@ Engineered features from player rotation telemetry and trained a **Random Forest
 
 `Python` `Java` `Random Forest` `Feature Engineering`
 
-### 🏎️ [TALOS](https://github.com/evanbur/Talos) — UCF Baja SAE Vehicle Telemetry & Anomaly Detection
+### 🏎️ [TALOS](https://github.com/evanbur/Talos) — UCF Baja SAE Vehicle Telemetry & Anomaly Detection (In Progress)
 
 Named for the bronze automaton of Greek myth that stood guard over Crete. Designing and building the full telemetry pipeline for the team's 2027 car · RF link, packet protocol, and downstream ML · from antenna placement through live dashboarding.
 
