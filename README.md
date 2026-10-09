@@ -22,7 +22,7 @@
 
 ## 🚀 Featured Work
 
-### 🌦️ [Augur](https://github.com/evanbur/Augur) — Probabilistic Weather Forecasting & Market Trading
+### 🌦️ Augur — Probabilistic Weather Forecasting & Market Trading
 
 A ML platform that ingests multiple weather models, aggregates them into calibrated probabilistic forecasts, and evaluates trading signals against Kalshi prediction markets with full experiment tracking and fault-tolerant ETL pipelines.
 
