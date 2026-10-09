@@ -32,13 +32,13 @@ A ML platform that ingests multiple weather models, aggregates them into calibra
 
 **Markets:** Kalshi event-market modeling · Edge calculation · Confidence scoring · Paper-trading engine · Position sizing & exposure limits · Fee & P&L modeling
 
-### 🛡️ [MLBD](https://github.com/blackgatedev/MLBD-Backend) — Behavioral Cheat Detection
+### 🛡️ MLBD — Behavioral Cheat Detection
 
 Engineered features from player rotation telemetry and trained a **Random Forest classifier** to detect non-human behavior, with threshold tuning to reduce false positives in production.
 
 `Python` `Java` `Random Forest` `Feature Engineering`
 
-### 🏎️ [TALOS](https://github.com/evanbur/Talos) — UCF Baja SAE Vehicle Telemetry & Anomaly Detection (In Progress)
+### 🏎️ Talos — UCF Baja SAE Vehicle Telemetry & Anomaly Detection (In Progress)
 
 Named for the bronze automaton of Greek myth that stood guard over Crete. Designing and building the full telemetry pipeline for the team's 2027 car · RF link, packet protocol, and downstream ML · from antenna placement through live dashboarding.
 
